@@ -2,25 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="your name">
-    <meta name="description" content="description of your page">
-    <title>My Page Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="author" content="Theodore Moen">
+    <meta name="description" content="All things Rubik's Cubes">
+    <meta name="keywords" content="Rubiks, HTML, Puzzles, Solve">
+    <link rel="icon" type="image/png" href="img/noun_Rubik_2458708.png"/>
+    <title>Rubik's Cubes "R" Us</title>
 </head>
 <body>
-    <h1>Rubik's Cubes R' Us</h1>
-    <section>
-        <h2>Topic Overview</h2>
-        <p>A Rubiks's cube is a puzzle that is cube-shaped and consists of 26 individual smaller cubes that turn around a spindle. The goal of this puzzle is to make all 6 sides have a solid color on each side. Some people have learned how to solve these puzzles and they are trying to get faster at solving them. These people are called cubers. Cubers have been trying to get faster for decades and they have seen a dramatic decrease in their solve times. The number of cubers has exploded and is still rapidly on the rise. Because the number of cubers are growing, they need better technology and better ways to approach cubing in general. </p>
-        <p>An information problem that is unaddressed is the problem of having a place to store your solve times. It's not that hard to just press start and stop on a timer. The main problem is storing your times. In official cubing competitions, your average of 5 solves is also recorded. It's a lot more convenient if your timer could also average together the last 5, or even 12, solves to give you an idea of where your average is at.</p>
-        <p>Another unaddressed information problem is that of information sharing involving cubing. Some cubers might be doing things that other cubers are not doing and vice versa. What cubers need is a good way to share their cubing knowledge with each other. It would also be possible for people to ask questions and other cubers could answer and give useful information. This would make the barrier to informamtion lower and it would give a lot more cubers access to information that would help them get faster solves.</p>
-    </section>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="details.html">About</a></li>
+            <li><a href="#solve-table">Fastest Solves</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Rubik's Cubes "R" Us</h1>
+        <img src="img/alvaro-reyes-4eTnTQle0Ks-unsplash.jpg" alt="Rubik's Cube on Desk">
+    </header>
+    <main>
+        <h2>Why This Site Exists</h2>
+        <p>A Rubiks's cube is a puzzle that is cube-shaped and consists of 26 individual smaller cubes that turn around a spindle. The goal of this puzzle is to make all 6 sides have a solid color on each side. There are over 43 Quintillion possible ways to mix it up. Some people have learned how to solve these puzzles and they are trying to get faster at solving them. These people are called cubers. Cubers have been trying to get faster for decades and they have seen a dramatic decrease in their solve times. The number of cubers has exploded and is still rapidly on the rise. Because the number of cubers are growing, they need better technology and better ways to approach cubing in general. </p>
 
-    <section>
-        <h2>Potential Applications</h2>
-        <ol type="1">
-            <li>My first potential app idea would be a solve timer that could also store and average your solve times. This would make it possible to record your times and then you could get an average of your last 5 or 12 solves. It would also give you the fastest and slowest times you have recorded.</li>
-            <li>My next potential app idea is to make a forum style site for cubing related content. People could post threads and respond to other people's threads. This would help people get and share important information about cubing as well as foster a community dynamic.</li>
-        </ol>
-    </section>
+        <img src="img/daniele-franchi-dt0yhDQmJ4k-unsplash.jpg" alt="Rubik's Cube Yellow Face on Yellow Background">
+
+        <h3>Why We Cube</h3>
+        <p>People who consistently solved Rubik's Cubes are known as cubers. Typically, cubers try to improve their solve times so that they can solve their cube faster. Some people solve cubes because they like the rush they get when they beat their personal best time, other solve cubes because they just like to collect them. Often times, cubers go to officially organized competitions. Often times, cubers aren't really competing against each other, but they are competing against themsleves and their personal best times.</p>
+        <img src="img/justus-menke-YGBYROFge3c-unsplash.jpg" alt="Rubik's Cube Yellow Face on Yellow Background">
+
+        <h2>Fastest 3x3 Single Solves</h2>
+        <p>The World Cube Association, WCA for short, is the official governing body for all things cubing. The only way somebody's solve time counts is if it happenend at an official WCA sanctioned cubing tournament. This list of the top 5 solve times was taken from the official WCA website.</p>
+        <table id="solve-table">
+            <thead>
+                <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Citizen of</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="col">1</td>
+                    <td scope="col">Yusheng Du</td>
+                    <td scope="col">3.47</td>
+                    <td scope="col">China</td>
+                </tr>
+                <tr>
+                    <td scope="col">2</td>
+                    <td scope="col">Feliks Zemdegs</td>
+                    <td scope="col">4.16</td>
+                    <td scope="col">Australia</td>
+                </tr>
+                <tr>
+                    <td scope="col">3</td>
+                    <td scope="col">Patrick Ponce</td>
+                    <td scope="col">4.24</td>
+                    <td scope="col">United States</td>
+                </tr>
+                <tr>
+                    <td scope="col">4</td>
+                    <td scope="col">Nicolás Sánchez</td>
+                    <td scope="col">4.38</td>
+                    <td scope="col">United States</td>
+                </tr>
+                <tr>
+                    <td scope="col">5</td>
+                    <td scope="col">Max Park</td>
+                    <td scope="col">4.40</td>
+                    <td scope="col">United States</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <p><a href="mailto:theodore.moen@wallawalla.edu">theodore.moen@wallawalla.edu</a></p>
+    </footer>
 </body>
 </html>
