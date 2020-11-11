@@ -2,13 +2,29 @@ body {
     margin: .5rem;
     background-color: forestgreen;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;}
+
+.navbar {
+    font-size: 11px;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-family: 'Courgette', cursive;
 }
 
-nav a {
-    text-align: left;
+.navbar li a {
+    color: gray
+}
+
+.navbar-nav li a:hover {
     color: white;
-    margin-right: .5em;
+}
+
+.open .dropdown-toggle {
+    color: white;
+    background-color: gray
 }
 
 h1 {
@@ -60,8 +76,50 @@ p {
 }
 
 footer {
-    background-color: white;
-    margin-right: 65%;
-    margin-left: 0%;
+    background-color: #2d2d30;
+    color: white;
+    padding: 32px;
 }
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: Gray;
+    text-decoration: none;
+}
+
+.container {
+    padding: 80px 120px;
+}
+
+.picture1 {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.8;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.background {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
 
