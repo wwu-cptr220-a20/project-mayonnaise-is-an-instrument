@@ -13,6 +13,15 @@ body {
     font-family: 'Courgette', cursive;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: Gray;
+    text-decoration: none;
+}
+
 .navbar li a {
     color: gray
 }
@@ -80,14 +89,7 @@ footer {
     padding: 32px;
 }
 
-footer a {
-    color: white;
-}
 
-footer a:hover {
-    color: Gray;
-    text-decoration: none;
-}
 
 .container {
     display: flex;
@@ -130,6 +132,10 @@ footer a:hover {
     table {
         width: 75%;
     }
+}
+
+.imgEnd {
+    width: 100%;
 }
 
 
