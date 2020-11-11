@@ -1,6 +1,5 @@
 body {
     margin: .5rem;
-    background-color: forestgreen;
     color: white;
     font-family: 'Ubuntu', sans-serif;}
 
@@ -91,7 +90,9 @@ footer a:hover {
 }
 
 .container {
+    display: flex;
     padding: 80px 120px;
+    flex-direction: column;
 }
 
 .picture1 {
@@ -115,11 +116,20 @@ footer a:hover {
     .carousel-caption {
         display: none;
     }
+    table {
+        width: 65%;
+    }
 }
 
 .background {
     background: #2d2d30;
     color: #bdbdbd;
+}
+
+@media (max-width: 992px) {
+    table {
+        width: 75%;
+    }
 }
 
 
