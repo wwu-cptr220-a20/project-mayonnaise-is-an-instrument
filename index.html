@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="author" content="Theodore Moen">
+        <meta name="description" content="All things Rubik's Cubes">
+        <meta name="keywords" content="Rubiks, HTML, Puzzles, Solve">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="img/noun_Rubik_2458708.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Rubik's Cubes "R" Us</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Rubik's Cubes "R" Us</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#whyCube">WHY WE CUBE</a></li>
+                        <li><a href="timer.html">CUBE TIMER</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"> MORE
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="details.html">About</a></li>
+                                <li><a href="details.html">Extras</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/fletcher-pride-liMvhbUq4Xg-unsplash.jpg" alt="Many Rubik's Cubes">
+                        <div class="carousel-caption">
+                            <h1>Rubik's Cubes</h1>
+                            <p>You've come to the right place.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/olav-ahrens-rotne-jvBXiynINGE-unsplash.jpg" alt="3x3 Rubik's Cube on top of a 5x5 Rubik's Cube">
+                        <div class="carousel-caption">
+                            <h3>Time Yourself</h3>
+                            <p>Use our cube timer to record your solves.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/belhadj-lamine-4TWqgUTQOrA-unsplash.jpg" alt="Metallic Rubik's Cube">
+                        <div class="carousel-caption">
+                            <h3>Explore the Site</h3>
+                            <p>Take a journey through the website.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container text-center">
+                <h1>Rubik's Cubes "R" Us</h1>
+                <h2>Why This Site Exists</h2>
+                <p>A Rubiks's cube is a puzzle that is cube-shaped and consists of 26 individual smaller cubes that turn around a spindle. The goal of this puzzle is to make all 6 sides have a solid color on each side. There are over 43 Quintillion possible ways to mix it up. Some people have learned how to solve these puzzles and they are trying to get faster at solving them. These people are called cubers. Cubers have been trying to get faster for decades and they have seen a dramatic decrease in their solve times. The number of cubers has exploded and is still rapidly on the rise. Because the number of cubers are growing, they need better technology and better ways to approach cubing in general. </p>
+                <img src="img/alvaro-reyes-4eTnTQle0Ks-unsplash.jpg" class="picture1" alt="Rubik's Cube on Desk">
+            </div>
+            <div class="background">
+                <div id="whyCube" class="container text-center">
+                    <h1>Why We Cube</h1>
+                    <p>People who consistently solve Rubik's Cubes are known as cubers. Typically, cubers try to improve their solve times so that they can solve their cube faster. Some people solve cubes because they like the rush they get when they beat their personal best time, others solve cubes because they just like to collect them. Often times, cubers go to officially organized competitions. Most of the time, cubers aren't really competing against each other, but they are competing against themsleves and their personal best times.</p>
+                    <img src="img/daniele-franchi-dt0yhDQmJ4k-unsplash.jpg" alt="Rubik's Cube Yellow Face on Yellow Background">
+                </div>
+            </div>
+            <div id="fastestSolves" class="container">
+                <h1 class="text-center">Fastest 3x3 Single Solves</h1>
+                <p class="text-center">The World Cube Association, WCA for short, is the official governing body for all things cubing. The only way somebody's solve time counts is if it happenend at an official WCA sanctioned cubing tournament. This list of the top 5 solve times was taken from the official WCA website.</p>
+                <table id="solve-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Citizen of</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">1</td>
+                            <td scope="col">Yusheng Du</td>
+                            <td scope="col">3.47</td>
+                            <td scope="col">China</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">2</td>
+                            <td scope="col">Feliks Zemdegs</td>
+                            <td scope="col">4.16</td>
+                            <td scope="col">Australia</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">3</td>
+                            <td scope="col">Patrick Ponce</td>
+                            <td scope="col">4.24</td>
+                            <td scope="col">United States</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">4</td>
+                            <td scope="col">Nicolás Sánchez</td>
+                            <td scope="col">4.38</td>
+                            <td scope="col">United States</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">5</td>
+                            <td scope="col">Max Park</td>
+                            <td scope="col">4.40</td>
+                            <td scope="col">United States</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <h1 class="text-center">Fastest Single Solves for Other Cubes</h1>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#menu0">4x4</a></li>
+                    <li><a data-toggle="tab" href="#menu1">5x5</a></li>
+                    <li><a data-toggle="tab" href="#menu2">6x6</a></li>
+                    <li><a data-toggle="tab" href="#menu3">7x7</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="menu0" class="tab-pane fade in active">
+                        <table id="solve-table4x4">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Citizen of</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Sebastian Weyer</td>
+                                    <td scope="col">17.42</td>
+                                    <td scope="col">Germany</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">2</td>
+                                    <td scope="col">Feliks Zemdegs</td>
+                                    <td scope="col">18.39</td>
+                                    <td scope="col">Australia</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">3</td>
+                                    <td scope="col">Max Park</td>
+                                    <td scope="col">18.42</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">4</td>
+                                    <td scope="col">Ciarán Beahan</td>
+                                    <td scope="col">19.77</td>
+                                    <td scope="col">Ireland</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">5</td>
+                                    <td scope="col">Seung Hyuk Nahm (남승혁)</td>
+                                    <td scope="col">19.87</td>
+                                    <td scope="col">Republic of Korea</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <table id="solve-table5x5">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Citizen of</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Max Park</td>
+                                    <td scope="col">34.92</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">2</td>
+                                    <td scope="col">Feliks Zemdegs</td>
+                                    <td scope="col">37.93</td>
+                                    <td scope="col">Australia</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">3</td>
+                                    <td scope="col">Ciarán Beahan</td>
+                                    <td scope="col">38.96</td>
+                                    <td scope="col">Ireland</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">4</td>
+                                    <td scope="col">Tymon Kolasiński</td>
+                                    <td scope="col">39.82</td>
+                                    <td scope="col">Poland</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">5</td>
+                                    <td scope="col">Patrick Ponce</td>
+                                    <td scope="col">40.43</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <table id="solve-table6x6">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Citizen of</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Max Park</td>
+                                    <td scope="col">1:09.51</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">2</td>
+                                    <td scope="col">Kevin Hays</td>
+                                    <td scope="col">1:14.06</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">3</td>
+                                    <td scope="col">Feliks Zemdegs</td>
+                                    <td scope="col">1:18.28</td>
+                                    <td scope="col">Australia</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">4</td>
+                                    <td scope="col">Ciarán Beahan</td>
+                                    <td scope="col">1:19.70</td>
+                                    <td scope="col">Ireland</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">5</td>
+                                    <td scope="col">Brandon Nunez</td>
+                                    <td scope="col">1:21.67</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <table id="solve-table7x7">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Citizen of</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Max Park</td>
+                                    <td scope="col">1:40.89</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">2</td>
+                                    <td scope="col">Feliks Zemdegs</td>
+                                    <td scope="col">1:53.62</td>
+                                    <td scope="col">Australia</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">3</td>
+                                    <td scope="col">Aryan Kejriwal</td>
+                                    <td scope="col">1:54.62</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">4</td>
+                                    <td scope="col">Kevin Hays</td>
+                                    <td scope="col">1:56.70</td>
+                                    <td scope="col">United States</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">5</td>
+                                    <td scope="col">Ciarán Beahan</td>
+                                    <td scope="col">1:56.89</td>
+                                    <td scope="col">Ireland</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <img src="img/michelen-studios-Ew3YytYFWlA-unsplash.jpg" class="imgEnd" alt="Rubik's Cube on Stand">
+
+        </main>
+
+        <footer class="text-center">
+            <a class="up-arrow" href="index.html" data-toggle="tooltip" title="Go To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <p>Website Designed By <a href="mailto:theodore.moen@wallawalla.edu">theodore.moen@wallawalla.edu</a></p>
+        </footer>
+    </body>
+</html>

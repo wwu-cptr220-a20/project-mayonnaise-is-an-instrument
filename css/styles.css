@@ -1,0 +1,197 @@
+body {
+    margin: .5rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;}
+
+.navbar {
+    font-size: 11px;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-family: 'Courgette', cursive;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: Gray;
+    text-decoration: none;
+}
+
+.navbar li a {
+    color: gray
+}
+
+.navbar-nav li a:hover {
+    color: white;
+}
+
+.open .dropdown-toggle {
+    color: white;
+    background-color: gray
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    height: 2rem;
+    background-color: red;
+}
+
+td, th {
+    padding: .5em;
+    border-bottom: 1px solid white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: royalblue;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    text-indent: 50px;
+    line-height: 2;
+    margin: 70px;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: white;
+    padding: 32px;
+}
+
+
+
+.container {
+    display: flex;
+    padding: 80px 120px;
+    flex-direction: column;
+}
+
+.picture1 {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.8;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    table {
+        width: 65%;
+    }
+}
+
+.background {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+@media (max-width: 992px) {
+    table {
+        width: 75%;
+    }
+}
+
+.imgEnd {
+    width: 100%;
+}
+
+.timer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/scott-webb-aHhhdKUP77M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+}
+
+#timer-block {
+    box-shadow: 0 1px 4px black;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: firebrick;
+}
+
+#numbers {
+    font-size: 64px;
+    background-color: dodgerblue;
+    color: yellow;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+#numbers span {
+    width: 85px;
+    text-align: center;
+    display: inline-block;
+}
+
+#timer-buttons {
+    display: flex;
+    margin: 10px -5px 0;
+}
+
+#timer-buttons button {
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    flex: 1;
+    margin: 0 5px;
+    box-shadow: 0 1px 4px black;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+#timer-buttons button:hover {
+    color: firebrick;
+    background-color: yellow;
+}
+
