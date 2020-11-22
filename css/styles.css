@@ -138,4 +138,60 @@ footer {
     width: 100%;
 }
 
+.timer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/scott-webb-aHhhdKUP77M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+}
+
+#timer-block {
+    box-shadow: 0 1px 4px black;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: firebrick;
+}
+
+#numbers {
+    font-size: 64px;
+    background-color: dodgerblue;
+    color: yellow;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+#numbers span {
+    width: 85px;
+    text-align: center;
+    display: inline-block;
+}
+
+#timer-buttons {
+    display: flex;
+    margin: 10px -5px 0;
+}
+
+#timer-buttons button {
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    flex: 1;
+    margin: 0 5px;
+    box-shadow: 0 1px 4px black;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+#timer-buttons button:hover {
+    color: firebrick;
+    background-color: yellow;
+}
 
